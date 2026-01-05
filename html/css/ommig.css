@@ -1,5 +1,161 @@
+/* Start på Startindstillinger */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Slut på Startindstillinger */
+
+/* Start på key */
+
+main {
+  padding: 1rem;
+}
+
+body {
+  font-family: "Raleway", "Inter", sans-serif;
+  background-color: #efe3d7;
+  color: black;
+  line-height: 1.8;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  margin-top: 0.5rem;
+}
+
+/* Slut på key */
+
+/* Start på header og nav */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #5c4033;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* Slut på header og nav */
+
+/* Start på om mig section*/
+
+.ommig h1 {
+  margin-top: 2rem;
+  font-size: 44px;
+}
+
+/* Start på om mig indhold */
+
+.ommig-indhold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ommig-indhold img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ommig-indhold p {
+  width: 400px;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Slut på om mig indhold */
+
+/* Start på uddannelse section */
+
+.uddannelse h1 {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 44px;
+}
+
+/* Slut på uddannelse section */
+
+/* Start på uddannelse indhold */
+
+.uddannelse-indhold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.uddannelse-indhold img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 0.5rem;
+}
+
+.uddannelse-indhold p {
+  width: 400px;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+/* Slut på uddannelse indhold */
+
+/* Start på erhvervserfaring section */
+
+.erhvervserfaring h1 {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 44px;
+}
+
+/* Slut på erhvervserfaring section */
+
+/* Start på erhvervserfaring indhold */
+
+.erhvervserfaring-indhold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.erhvervserfaring-indhold img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 0.5rem;
+}
+
+.erhvervserfaring-indhold p {
+  width: 400px;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+/* Slut på erhvervserfaring indhold */

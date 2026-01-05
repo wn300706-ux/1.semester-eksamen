@@ -1,5 +1,56 @@
+/* Start på Startindstillinger */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Slut på Startindstillinger */
+
+/* Start på key */
+
+main {
+  padding: 1rem;
+}
+
+body {
+  font-family: "Raleway", "Inter", sans-serif;
+  background-color: #efe3d7;
+  color: black;
+  line-height: 1.8;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  margin-top: 0.5rem;
+}
+
+/* Slut på key */
+
+/* Start på header og nav */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #5c4033;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* Slut på header og nav */
