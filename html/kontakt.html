@@ -36,5 +36,84 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <h1>Kontakt</h1>
+      <section id="form-section">
+        <article id="form-info">
+          <p>
+            Skriv her og send mig en besked, hvis du har nogle spørgsmål eller
+            er nysgerrig på noget.
+          </p>
+        </article>
+
+        <form id="webform" aria-label="Kontakt formular">
+          <fieldset>
+            <div class="form-group">
+              <label>Fornavn:</label>
+              <input
+                type="text"
+                id="fornavn"
+                placeholder="Indtast dit fornavn"
+                name="fornavn"
+                minlength="2"
+                required
+                aria-describedby="fornavn-input"
+              />
+
+              <p id="efternavn-input" class="error-message" hidden>
+                Input skal udfyldes
+              </p>
+
+              <label>Efternavn:</label>
+              <input
+                type="text"
+                id="efternavn"
+                placeholder="Indtast dit efternavn"
+                name="efternavn"
+                minlength="2"
+                required
+                aria-describedby="efternavn-input"
+              />
+
+              <p id="efternavn-input" class="error-message" hidden>
+                Input skal udfyldes
+              </p>
+
+              <label>E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Indtast din e-mail"
+                name="email"
+                minlength="2"
+                required
+                aria-describedby="email-input"
+              />
+
+              <p id="email-input" class="error-message" hidden>
+                Input skal udfyldes
+              </p>
+
+              <label>Besked:</label>
+              <input
+                type="text"
+                id="besked"
+                placeholder="Send en besked her"
+                name="besked"
+                minlength="2"
+                required
+                aria-describedby="besked-input"
+              />
+
+              <p id="besked-input" class="error-message" hidden>
+                Input skal udfyldes
+              </p>
+            </div>
+          </fieldset>
+
+          <button id="button" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
