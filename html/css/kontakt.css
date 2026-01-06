@@ -153,4 +153,60 @@ button:active {
     margin: 0 auto;
     padding: 2rem;
   }
+
+  /* Start på overskrift */
+
+  main h1 {
+    font-size: 59px;
+    margin-top: 7rem;
+    padding-left: 2rem;
+  }
+
+  /* Slut på overskrift */
+
+  /* Start på section, herunder paragraf, label, form = indtast + send, input, textarea, button hover */
+
+  #form-section {
+    gap: 4rem;
+  }
+
+  #form-info p {
+    margin-top: 3rem;
+    font-size: 20px;
+    line-height: 1.7;
+    padding-left: 2rem;
+  }
+
+  label {
+    font-size: 24px;
+  }
+
+  form {
+    border-radius: 10px;
+    padding: 2rem;
+  }
+
+  .form-group {
+    gap: 3rem;
+  }
+
+  input {
+    font-size: 18px;
+    border-radius: 10px;
+    width: 820px;
+  }
+
+  textarea {
+    font-size: 18px;
+    border-radius: 10px;
+    width: 820px;
+    height: 400px;
+  }
+
+  button:hover {
+    outline: 2px solid lightgrey;
+    outline-offset: 1px;
+  }
+
+  /* Slut på section, herunder paragraf, label, form = indtast + send, input, textarea, button hover */
 }
