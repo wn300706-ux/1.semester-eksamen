@@ -144,3 +144,156 @@ article img {
 /* Slut på se mere buttons */
 
 /* Slut på mobilførst */
+
+/* Start på desktop */
+
+@media (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Start på billede kontrol */
+
+  .temato img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  .tematre img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  .temafem img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  .temafire img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  /* Slut på billede kontrol */
+
+  /* Start på portfolio overskrift og tekst */
+
+  .headerportfolio h1 {
+    font-size: 59px;
+    text-align: left;
+    width: 537px;
+    margin-top: 10rem;
+    padding-left: 3.5rem;
+  }
+
+  .headerportfolio p {
+    font-size: 20px;
+    text-align: left;
+    width: 594px;
+    padding-left: 3.5rem;
+  }
+
+  /* Slut på portfolio overskrift og tekst */
+
+  /* Start på tema 2 & 3 */
+
+  .tematoogtre {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 5rem !important;
+    margin-top: 10rem !important;
+  }
+
+  .tematoogtre article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 550px;
+    padding-left: 3.5rem;
+  }
+
+  .tematoogtre article p {
+    margin-top: auto;
+  }
+
+  .temato h2 {
+    font-size: 21.5px;
+    width: 550px;
+  }
+
+  .temato p {
+    font-size: 20px;
+    width: 550px;
+    margin-bottom: 5.3rem !important;
+  }
+
+  .tematre h2 {
+    font-size: 21.5px;
+    width: 550px;
+  }
+
+  .tematre p {
+    font-size: 20px;
+    width: 550px;
+  }
+
+  /* Slut på tema 2 & 3 */
+
+  /* Start på tema 4 & 5 */
+
+  .temafireogfem article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 550px;
+    padding-left: 3.5rem;
+  }
+
+  .temafireogfem {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 5rem !important;
+    margin-top: 10rem !important;
+  }
+
+  .temafireogfem article p {
+    margin-top: auto;
+  }
+
+  .temafire h2 {
+    font-size: 21.5px;
+    width: 560px;
+  }
+
+  .temafire p {
+    font-size: 20px;
+    width: 550px;
+  }
+
+  .temafem h2 {
+    font-size: 21.5px;
+    width: 550px;
+  }
+
+  .temafem p {
+    font-size: 20px;
+    width: 550px;
+  }
+
+  /* Slut på tema 4 & 5 */
+
+  /* Start på buttons */
+
+  .semerebuttonto {
+    margin-bottom: 3rem !important;
+  }
+
+  .semerebutton,
+  .semerebuttontre,
+  .semerebuttonfem {
+    margin-top: auto;
+  }
+
+  /* Slut på buttons */
+}
