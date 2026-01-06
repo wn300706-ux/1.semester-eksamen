@@ -29,6 +29,8 @@ body {
 
 /* Slut på key */
 
+/* Start på mobilførst */
+
 /* Start på header og nav */
 
 header {
@@ -144,6 +146,17 @@ article img {
   color: white;
 }
 
+.semerebuttonto {
+  display: inline-block;
+  background-color: #5c4033;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: 500;
+}
+
 .semerebuttontre {
   display: inline-block;
   background-color: #5c4033;
@@ -153,10 +166,185 @@ article img {
   border-radius: 10px;
   width: 100%;
   font-weight: 500;
-  margin-bottom: 3rem;
 }
 
-.semerebuttontre:hover {
-  background-color: #d3d3d3;
+.semerebuttonfem {
+  display: inline-block;
+  background-color: #5c4033;
   color: white;
+  text-decoration: none;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: 500;
+}
+
+/* Slut på se mere buttons */
+
+/* Start på desktop */
+
+@media (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Start på billede kontrol */
+
+  .temato img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  .tematre img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  .temafem img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  .temafire img {
+    width: 550px !important;
+    height: 500px !important;
+  }
+
+  /* Slut på billede kontrol */
+
+  /* Start på velkomme */
+
+  .velkommen h1 {
+    font-size: 59px;
+    text-align: left;
+    width: 1000px;
+    margin-top: 10rem;
+    padding: 2rem;
+  }
+
+  .velkommen p {
+    font-size: 20px;
+    text-align: left;
+    width: 700px;
+    padding: 2rem;
+  }
+
+  /* Slut på velkomme */
+
+  /* Start på hvad kan du */
+
+  .hvadkandu {
+    margin-top: 10rem;
+  }
+
+  .hvadkandu h2 {
+    font-size: 36px;
+    margin-top: 13.5rem;
+  }
+
+  .hvadkandu p {
+    font-size: 20px;
+    width: 716px;
+    margin: auto;
+  }
+
+  /* Slut på hvad kan du */
+
+  /* Start på tema 2 & 3 */
+
+  .tematoogtre {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 5rem !important;
+    margin-top: 10rem !important;
+  }
+
+  .tematoogtre article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 550px;
+    padding-left: 3.5rem;
+  }
+
+  .temato h2 {
+    font-size: 21.5px;
+    width: 550px;
+  }
+
+  .temato p {
+    font-size: 20px;
+    width: 550px;
+    margin-bottom: 5.3rem !important;
+  }
+
+  .tematre h2 {
+    font-size: 21.5px;
+    width: 550px;
+  }
+
+  .tematre p {
+    font-size: 20px;
+    width: 550px;
+  }
+
+  /* Slut på tema 2 & 3 */
+
+  /* Start på tema 4 & 5 */
+
+  .temafireogfem article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 550px;
+    padding-left: 3.5rem;
+  }
+
+  .temafireogfem {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 5rem !important;
+    margin-top: 10rem !important;
+  }
+
+  .temafire h2 {
+    font-size: 21.5px;
+    width: 560px;
+  }
+
+  .temafire p {
+    font-size: 20px;
+    width: 550px;
+  }
+
+  .temafem h2 {
+    font-size: 21.5px;
+    width: 550px;
+  }
+
+  .temafem p {
+    font-size: 20px;
+    width: 550px;
+  }
+
+  /* Slut på tema 4 & 5 */
+
+  .tematoogtre article p {
+    margin-top: auto;
+  }
+
+  .temafireogfem article p {
+    margin-top: auto;
+  }
+
+  .semerebuttonto {
+    margin-bottom: 3rem !important;
+  }
+
+  .semerebutton,
+  .semerebuttontre,
+  .semerebuttonfem {
+    margin-top: auto;
+  }
 }
