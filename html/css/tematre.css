@@ -7,3 +7,102 @@
 }
 
 /* Slut på Startindstillinger */
+
+/* Start på key */
+
+main {
+  padding: 1rem;
+}
+
+body {
+  font-family: "Raleway", "Inter", sans-serif;
+  background-color: #efe3d7;
+  color: black;
+  line-height: 1.8;
+}
+
+/* Slut på key */
+
+/* Start på overskriftet og tilbage button */
+
+.undersidetre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.undersidetre h1 {
+  font-size: 18.5px;
+  margin-top: 1rem;
+}
+
+.tilbagebutton {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+
+  margin-top: 0.8rem;
+  color: black;
+  font-weight: 700;
+}
+
+/* Slut på overskriftet og tilbage button */
+
+/* Start på tema indhold */
+
+.undersidetre-indhold p {
+  font-size: 16px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Slut på tema indhold */
+
+/* Start på emnesite screenshots, indhold og buttons */
+
+.emnesite {
+  margin-top: 1rem;
+}
+
+.emnesite h2 {
+  font-size: 18px;
+  margin-bottom: 3rem;
+}
+
+.emnesite img {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.emnesite p {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.emnesite-buttons a {
+  display: inline-block;
+  background-color: #5c4033;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 17px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.emnesite-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+/* Slut på emnesite screenshots, indhold og buttons */
