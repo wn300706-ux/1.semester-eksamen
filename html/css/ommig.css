@@ -166,3 +166,159 @@ nav a {
 /* Slut på erhvervserfaring indhold */
 
 /* Slut på mobilførst */
+
+/* Start på desktop */
+
+@media (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Start på billede kontrol */
+
+  .ommig img {
+    width: 580px;
+    height: 550px;
+  }
+
+  .uddannelse img {
+    width: 580px;
+    height: 550px;
+  }
+
+  .erhvervserfaring img {
+    width: 580px;
+    height: 550px;
+  }
+
+  /* Slut på billede kontrol */
+
+  /* Start på om mig */
+
+  .ommig {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    padding-left: 3.5rem;
+  }
+
+  .ommig h1 {
+    font-size: 59px;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+    height: 48px;
+  }
+
+  .ommig-indhold {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 4rem;
+    align-items: start;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .ommig-indhold img {
+    width: 500px;
+    height: 450px;
+    grid-column: 1;
+    margin-left: -12rem;
+    margin-top: 12rem;
+    grid-row: 1 / span 3;
+  }
+
+  .ommig p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-right: -7rem;
+    grid-column: 2;
+    text-align: justify;
+    width: 594px;
+  }
+  /* Slut på om mig */
+
+  /* Start på uddannelse */
+
+  .uddannelse {
+    margin-top: 5rem;
+    margin-right: 10rem;
+    padding: 3.5rem;
+  }
+
+  .uddannelse h1 {
+    font-size: 59px;
+    margin-right: 45rem;
+    height: 48px;
+  }
+
+  .uddannelse-indhold {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: 4rem;
+    align-items: start;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .uddannelse-indhold img {
+    width: 500px;
+    height: 450px;
+    grid-column: 2;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    grid-row: 1 / span 3;
+  }
+
+  .uddannelse-indhold p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    grid-column: 1;
+    text-align: justify;
+    justify-self: start;
+    width: 594px;
+  }
+
+  /* Slut på uddannelse */
+
+  /* Start på erhvervserfaring */
+
+  .erhvervserfaring {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    padding-left: 3.5rem;
+  }
+
+  .erhvervserfaring h1 {
+    font-size: 59px;
+    margin-left: 14.5rem;
+    margin-bottom: 4rem;
+    height: 48px;
+  }
+
+  .erhvervserfaring-indhold {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 4rem;
+    align-items: start;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .erhvervserfaring-indhold img {
+    width: 500px;
+    height: 450px;
+    grid-column: 1;
+    margin-left: -12rem;
+    margin-top: 5rem;
+    grid-row: 1 / span 3;
+  }
+
+  .erhvervserfaring p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-right: -7rem;
+    grid-column: 2;
+    text-align: justify;
+    width: 594px;
+  }
+}
