@@ -1,8 +1,8 @@
 /* Start på Startindstillinger */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Fjerner margin fra alle elementer */
+  padding: 0; /* Fjerner padding fra alle elementer */
   box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@
 /* Start på key */
 
 main {
-  padding: 1rem;
+  padding: 1rem; /* Luft rundt om main */
 }
 
 body {
@@ -34,17 +34,17 @@ body {
 /* Start på header og nav */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* Flexboks til layout af logo og menu */
+  justify-content: space-between; /* Logo skal stå til venstre og menu skal stå til højre */
+  align-items: center; /* Placere i midten lodret */
   padding: 0.5rem;
   background-color: #5c4033;
 }
 
 nav ul {
-  display: flex;
+  display: flex; /* Sætter menu som en række */
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 1.5rem; /* Aftstand mellem menupunkter */
   list-style: none;
   margin-right: 0.5rem;
 }
@@ -70,14 +70,13 @@ nav a {
 .ommig-indhold {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+  align-items: center; /* I midten men lodret */
+  gap: 2rem; /* Luft mellem elementer*/
 }
 
 .ommig-indhold img {
-  width: 350px;
-  height: 300px;
-  object-fit: cover;
+  width: 400px;
+  height: 450px;
   border-radius: 10px;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
@@ -112,9 +111,8 @@ nav a {
 }
 
 .uddannelse-indhold img {
-  width: 350px;
-  height: 300px;
-  object-fit: cover;
+  width: 400px;
+  height: 450px;
   border-radius: 10px;
   margin-top: 0.5rem;
 }
@@ -149,9 +147,8 @@ nav a {
 }
 
 .erhvervserfaring-indhold img {
-  width: 350px;
-  height: 300px;
-  object-fit: cover;
+  width: 400px;
+  height: 450px;
   border-radius: 10px;
   margin-top: 0.5rem;
 }
@@ -171,28 +168,9 @@ nav a {
 
 @media (min-width: 768px) {
   main {
-    margin: 0 auto;
+    margin: 0 auto; /* Placerer main i midten */
     padding: 2rem;
   }
-
-  /* Start på billede kontrol */
-
-  .ommig img {
-    width: 580px;
-    height: 550px;
-  }
-
-  .uddannelse img {
-    width: 580px;
-    height: 550px;
-  }
-
-  .erhvervserfaring img {
-    width: 580px;
-    height: 550px;
-  }
-
-  /* Slut på billede kontrol */
 
   /* Start på om mig */
 
@@ -204,34 +182,34 @@ nav a {
 
   .ommig h1 {
     font-size: 59px;
-    margin-right: 1rem;
+    margin-left: 3.5rem;
     margin-bottom: 4rem;
     height: 48px;
   }
 
   .ommig-indhold {
     display: grid;
-    grid-template-columns: 350px 1fr;
-    column-gap: 4rem;
-    align-items: start;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem; /* Afstand mellem kolonner */
+    align-items: start; /* Lægger indholdet i toppen og starter derfra */
     max-width: 1050px;
-    margin: 0 auto;
+    margin: 0 auto; /* Ingen margin top eller bund, men auto til venstre og højre */
   }
 
   .ommig-indhold img {
-    width: 500px;
-    height: 450px;
-    grid-column: 1;
-    margin-left: -12rem;
-    margin-top: 12rem;
-    grid-row: 1 / span 3;
+    width: 580px;
+    height: 700px;
+    grid-column: 1; /* Placeres først i kolonne */
+    margin-left: -15rem;
+    margin-top: 4rem;
+    grid-row: 1 / span 3; /* Bruger 3 rækker i højden */
   }
 
   .ommig p {
     font-size: 20px;
     margin-bottom: 1rem;
-    margin-right: -7rem;
-    grid-column: 2;
+    margin-left: 3.5rem;
+    grid-column: 2; /* Tekst i den anden kolonne, som nævnt tidligere oven over */
     text-align: justify;
     width: 594px;
   }
@@ -247,13 +225,13 @@ nav a {
 
   .uddannelse h1 {
     font-size: 59px;
-    margin-right: 45rem;
+    margin-left: -51.5rem;
     height: 48px;
   }
 
   .uddannelse-indhold {
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
     align-items: start;
     max-width: 1050px;
@@ -261,11 +239,11 @@ nav a {
   }
 
   .uddannelse-indhold img {
-    width: 500px;
-    height: 450px;
+    width: 580px;
+    height: 550px;
     grid-column: 2;
-    margin-left: 1rem;
-    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
     grid-row: 1 / span 3;
   }
 
@@ -276,6 +254,7 @@ nav a {
     text-align: justify;
     justify-self: start;
     width: 594px;
+    margin-left: -2rem;
   }
 
   /* Slut på uddannelse */
@@ -290,7 +269,7 @@ nav a {
 
   .erhvervserfaring h1 {
     font-size: 59px;
-    margin-left: 14.5rem;
+    margin-left: 20rem;
     margin-bottom: 4rem;
     height: 48px;
   }
@@ -305,18 +284,18 @@ nav a {
   }
 
   .erhvervserfaring-indhold img {
-    width: 500px;
-    height: 450px;
+    width: 580px;
+    height: 550px;
     grid-column: 1;
-    margin-left: -12rem;
-    margin-top: 5rem;
+    margin-left: -13.5rem;
+    margin-top: 2rem;
     grid-row: 1 / span 3;
   }
 
   .erhvervserfaring p {
     font-size: 20px;
     margin-bottom: 1rem;
-    margin-right: -7rem;
+    margin-left: 3.5rem;
     grid-column: 2;
     text-align: justify;
     width: 594px;

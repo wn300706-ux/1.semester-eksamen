@@ -1,8 +1,8 @@
 /* Start på Startindstillinger */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Fjerner margin fra alle elementer */
+  padding: 0; /* Fjerner padding fra alle elementer */
   box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@
 /* Start på key */
 
 main {
-  padding: 1rem;
+  padding: 1rem; /* Luft rundt om main */
 }
 
 body {
@@ -34,17 +34,17 @@ body {
 /* Start på header og nav */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* Flexboks til layout af logo og menu */
+  justify-content: space-between; /* Logo skal stå til venstre og menu skal stå til højre */
+  align-items: center; /* Placere i midten lodret */
   padding: 0.5rem;
   background-color: #5c4033;
 }
 
 nav ul {
-  display: flex;
+  display: flex; /* Sætter menu som en række */
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 1.5rem; /* Aftstand mellem menupunkter */
   list-style: none;
   margin-right: 0.5rem;
 }
@@ -75,13 +75,13 @@ main h1 {
 
 form {
   background-color: #efe3d7;
-  padding: 0rem;
+  padding: 0rem; /* Fjerner alt indvendig luft */
 }
 
 .form-group {
-  display: flex;
+  display: flex; /* Flexboks til label og input */
   flex-direction: column;
-  gap: 2rem;
+  gap: 2rem; /* Afstanden mellem felter */
 }
 
 label {
@@ -90,7 +90,7 @@ label {
 }
 
 fieldset {
-  border: none;
+  border: none; /* Fjerner den grå kant */
 }
 
 input {
@@ -101,7 +101,7 @@ input {
 
 textarea {
   width: 100%;
-  height: 100px;
+  height: 520px;
 }
 
 input,
@@ -128,8 +128,8 @@ form {
 }
 
 :focus-visible {
-  outline: 2px solid royalblue;
-  outline-offset: 1px;
+  outline: 2px solid royalblue; /* Når man trykker ind i et felt */
+  outline-offset: 1px; /* Flytter kanten med 1px ud fra feltet */
 }
 
 button:hover {
@@ -150,7 +150,7 @@ button:active {
 
 @media (min-width: 768px) {
   main {
-    margin: 0 auto;
+    margin: 0 auto; /* Placerer main i midten */
     padding: 2rem;
   }
 
@@ -187,7 +187,7 @@ button:active {
   }
 
   .form-group {
-    gap: 3rem;
+    gap: 3rem; /* Luft mellem felter */
   }
 
   input {

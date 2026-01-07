@@ -1,8 +1,8 @@
 /* Start på Startindstillinger */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Fjerner margin fra alle elementer */
+  padding: 0; /* Fjerner padding fra alle elementer */
   box-sizing: border-box;
 }
 
@@ -11,11 +11,11 @@
 /* Start på key */
 
 main {
-  padding: 1rem;
+  padding: 1rem; /* Tilføjer lidt indvending luft til hele main */
 }
 
 body {
-  font-family: "Raleway", "Inter", sans-serif;
+  font-family: "Raleway", "Inter", sans-serif; /* Fonte til hele siden */
   background-color: #efe3d7;
   color: black;
   line-height: 1.8;
@@ -24,7 +24,7 @@ body {
 .logo img {
   width: 60px;
   height: 60px;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem; /* Lidt over luft over logoet */
 }
 
 /* Slut på key */
@@ -34,17 +34,17 @@ body {
 /* Start på header og nav */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* Flexboks til layout af logo og menu */
+  justify-content: space-between; /* Logo skal stå til venstre og menu skal stå til højre */
+  align-items: center; /* Placere i midten lodret */
   padding: 0.5rem;
   background-color: #5c4033;
 }
 
 nav ul {
-  display: flex;
+  display: flex; /* Sætter menu som en række */
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 1.5rem; /* Aftstand mellem menupunkter */
   list-style: none;
   margin-right: 0.5rem;
 }
@@ -185,7 +185,7 @@ article img {
 
 @media (min-width: 768px) {
   main {
-    margin: 0 auto;
+    margin: 0 auto; /* Placerer main i midten */
     padding: 2rem;
   }
 
@@ -246,7 +246,7 @@ article img {
   .hvadkandu p {
     font-size: 20px;
     width: 716px;
-    margin: auto;
+    margin: auto; /*Den fordeler plads på begge sider */
   }
 
   /* Slut på hvad kan du */
@@ -255,8 +255,8 @@ article img {
 
   .tematoogtre {
     display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 5rem !important;
+    grid-template-columns: 1fr 1fr !important; /* To kolonner */
+    gap: 5rem !important; /* Afstand mellem rækker og kolonner */
     margin-top: 10rem !important;
   }
 
