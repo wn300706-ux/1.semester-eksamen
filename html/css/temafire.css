@@ -110,3 +110,79 @@ body {
 /* Slut på emergency site screenshots, indhold og buttons */
 
 /* Slut på mobilførst */
+
+/* Start på desktop */
+
+@media (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Start på overskrift og tilbageknap */
+
+  .undersidefire {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .undersidefire h1 {
+    font-size: 40px;
+    padding-left: 1rem;
+  }
+
+  .tilbagebutton {
+    font-size: 20px;
+  }
+
+  /* Slut på overskrift og tilbageknap */
+
+  /* Start på tema 4 indhold */
+
+  .undersidefire-indhold p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    width: 1214px;
+    padding-left: 1.3rem;
+  }
+
+  /* Slut på tema 4 indhold */
+
+  /* Start på emergency-site og div grid */
+
+  .emergency-site h2 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+    padding-left: 1.3rem;
+  }
+
+  .grid-fem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-left: 1.3rem;
+  }
+
+  .grid-boks img {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+  }
+
+  .emergency-site p {
+    font-size: 20px;
+  }
+
+  .emergency-site-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  /* Slut på emergency-site og div grid */
+
+  /* Slut på desktop */
+}
